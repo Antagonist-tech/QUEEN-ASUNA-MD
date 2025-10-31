@@ -1,4 +1,4 @@
-
+.
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~S9BjXQoC#7obKoF4sxLYHOvgXuWHNJAC4PyfTzYiTf5fjJ7NCCFA",
+SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~2oIgGBoZ#JJv2VTE6GzCzD9ZdBIKUqD7stFpkuOcODH6fBCXdO8c",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -23,15 +23,15 @@ STICKER_NAME: process.env.STICKER_NAME || "QUEEN-ASUNA-MD",
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false", 
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
-OWNER_NUMBER: process.env.OWNER_NUMBER || "18095091983",
-OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50938807159",
+OWNER_NAME: process.env.OWNER_NAME || "rey",
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy*",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/p1xybt.jpg",
 LIVE_MSG: process.env.LIVE_MSG || ">*QUEEN-ASUN-MD* 👸 ALIVE",
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD: process.env.ANTI_BAD || "false",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
